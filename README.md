@@ -1,0 +1,1 @@
+# contao-filename-sanitizer
