@@ -1,0 +1,30 @@
+{
+  "name":"christianbarkowsky/contao-filename-sanitizer",
+  "description":"Filename sanitizer extension for Contao Open Source CMS",
+  "keywords":["filename", "folder", "sanitize", "slug"],
+  "type":"contao-module",
+  "license":"LGPL-3.0+",
+  "authors":[
+    {
+      "name":"Christian Barkowsky",
+      "homepage":"http://brkwsky.de"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/christianbarkowsky/contao-filename-sanitizer/issues",
+    "source": "https://github.com/christianbarkowsky/contao-filename-sanitizer",
+  },
+  "require":{
+    "php": "^7.1",
+    "contao/core-bundle": "~3.5",
+    "contao-community-alliance/composer-plugin": "2.*",
+    "ausi/slug-generator": "^1"
+  },
+  "extra":{
+    "contao": {
+      "sources":{
+        "src": "system/modules/sanitizer"
+      }
+    }
+  }
+}
