@@ -12,7 +12,7 @@
   ],
   "support": {
     "issues": "https://github.com/christianbarkowsky/contao-filename-sanitizer/issues",
-    "source": "https://github.com/christianbarkowsky/contao-filename-sanitizer",
+    "source": "https://github.com/christianbarkowsky/contao-filename-sanitizer"
   },
   "require":{
     "php": "^7.1",
